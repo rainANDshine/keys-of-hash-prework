@@ -1,7 +1,5 @@
 class Hash
-  def keys_of(*arguments)
-    array = []
-    array << self.key(arguments)
-    array
+  def keys_of(arguments)
+    self.key(arguments)
   end
 end
