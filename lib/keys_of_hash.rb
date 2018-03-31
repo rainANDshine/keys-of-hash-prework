@@ -11,3 +11,16 @@ class Hash
     array
   end
 end
+
+class Hash
+  def keys_of(*arguments)
+    array = []
+    
+    arguments.each do |string|
+      self.each do ||
+      array << self.key(string)
+    end
+    
+    array
+  end
+end
